@@ -31,9 +31,9 @@ def check_url(url):
 
     # Final decision
     if issues:
-        return "⚠️ Suspicious URL", issues
+        return " Suspicious URL", issues
     else:
-        return "✅ Legitimate URL", issues
+        return "Legitimate URL", issues
 
 
 if __name__ == "__main__":
